@@ -7,7 +7,7 @@ header-img: "img/green.jpg"
 
 
 <center>
-    <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
+    <p><img src="https://huasp-my.sharepoint.cn/personal/zengjiean_o2o_huas_edu_gr/_layouts/15/guestaccess.aspx?guestaccesstoken=J8s7B35XpsOoQWV8k47XbupysJRvCVZXIY%2fbSzTA%2ff8%3d&docid=07d5035e360624c1e84acb1f05ce6a27b" align="center"></p>
 </center>
 
 我是曾杰安，我希望能够记录下我的思考。
@@ -43,8 +43,3 @@ header-img: "img/green.jpg"
 - [博客：isheng5.guihub.io](isheng5.github.io)
 
 - [知乎@狂奔的小兔子](http://www.zhihu.com/people/isheng5)
-
-
-<center>
-    <p><img src="http://i173.photobucket.com/albums/w63/cnfeat/2015-08-29-2_zpsqj7po8eo.png" align="center"></p>
-</center>
