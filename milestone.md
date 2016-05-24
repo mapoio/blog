@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "milestone"
-description: "听到与说出"
+description: "听到 说出"
 header-img: "img/zhihu.jpg"
 ---
 
