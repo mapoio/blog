@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 礼物计划
+header-img:img/zhihu.jpg
 date: 2015-05-24
 categories: blog
 tags: [计划]
