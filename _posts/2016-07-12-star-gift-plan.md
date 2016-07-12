@@ -5,7 +5,6 @@ date: 2015-05-24
 categories: blog
 tags: [计划]
 description: 我只想在和你说明一切之前留下更多的回忆
-header-img:img/zhihu.jpg
 ---
 
 > 希望我们能够好好的走下去，虽然不知道半年后会怎样，但这半年我是一定会坚持下去的。半年后，告诉你这一切。
