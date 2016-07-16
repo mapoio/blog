@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 520
 title: 礼物计划
 date: 2015-05-24
 categories: blog

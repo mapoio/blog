@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 520
 title: 写就是写本身的报酬
 date: 2015-09-15
 categories: blog

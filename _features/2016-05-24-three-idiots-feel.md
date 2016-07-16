@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 520
 title: 三傻大闹宝莱坞读后感，不知道写什么标题先放在这里
 date: 2015-05-24
 categories: blog
