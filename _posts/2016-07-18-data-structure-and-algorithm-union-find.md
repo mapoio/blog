@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 仙术之并查集
+title: 仙术-并查集
 date: 2016-07-18
 categories: blog
 tags: [数据结构与算法]
