@@ -40,6 +40,6 @@ header-img: "img/green.jpg"
 
 ### 联系
 
-- [博客：isheng5.guihub.io](isheng5.github.io)
+- [博客：www.hotcode.top](isheng5.github.io)
 
 - [知乎@狂奔的小兔子](http://www.zhihu.com/people/isheng5)
