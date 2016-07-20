@@ -45,7 +45,13 @@ defaults:
       layout: "post"
       author: "isheng5"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
-
+  -
+    scope:
+      path: "_spa"
+      type: "spa"
+    values:
+      layout: "spacial"
+      author: "isheng5"
 # Comments
 #comments :
 #  provider : duoshuo
