@@ -1,6 +1,6 @@
 # Site settings
 title: 听 · 说
-header-img: "http://oalurqnz4.bkt.clouddn.com/green.jpg"
+header-img: "/oalurqnz4.bkt.clouddn.com/green.jpg"
 tagline: "cn"
 description: "曾杰安|听·说"
 baseurl: ""
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "isheng5"
-      header-img: "http://oalurqnz4.bkt.clouddn.com/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "/oalurqnz4.bkt.clouddn.com/green.jpg" # We don't want posts without a header image, that whould mean white on white
   # -
   #   scope:
   #     path: ""
