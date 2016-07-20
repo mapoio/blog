@@ -6,6 +6,7 @@ description: 本篇文章介绍数据结构中的一种-并查集。
 header-img: "/oalurqnz4.bkt.clouddn.com/blue.jpg"
 author: "isheng5"
 special: true
+priority: "0.8"
 ---
 ### 正在编写中 先占个地方
 
