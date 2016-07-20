@@ -8,7 +8,7 @@ putout: true
 
 
 <center>
-    <p><img src="https://huasp-my.sharepoint.cn/personal/zengjiean_o2o_huas_edu_gr/_layouts/15/guestaccess.aspx?guestaccesstoken=J8s7B35XpsOoQWV8k47XbupysJRvCVZXIY%2fbSzTA%2ff8%3d&docid=07d5035e360624c1e84acb1f05ce6a27b" align="center"></p>
+    <p><img src="/oalurqnz4.bkt.clouddn.com/favicon.png" align="center"></p>
 </center>
 
 
