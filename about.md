@@ -4,6 +4,10 @@ title: "About"
 description: "为自己活下去"
 header-img: "//oalurqnz4.bkt.clouddn.com/zhihu.jpg"
 putout: true
+sitemap:
+  priority: "0.5"
+  changefreq:
+  lastmod: 2016-07-16
 ---
 
 

@@ -4,6 +4,10 @@ title: "Archive"
 description: "听·说"
 header-img: "/oalurqnz4.bkt.clouddn.com/orange.jpg"
 putout: true
+sitemap:
+  priority: "0.5"
+  changefreq: "daily"
+  lastmod: 2016-07-15
 ---
 
 

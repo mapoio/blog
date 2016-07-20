@@ -4,6 +4,10 @@ title: "Tags"
 description: "哈哈，你找到了我的文章基因库"  
 header-img: "/oalurqnz4.bkt.clouddn.com/semantic.jpg"  
 putout: true
+sitemap:
+  priority: "0.5"
+  changefreq:
+  lastmod: 2016-07-19
 ---
 
 ## 本页使用方法
