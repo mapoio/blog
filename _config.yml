@@ -47,7 +47,7 @@ defaults:
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
   -
     scope:
-      path: "_spa"
+      path: ""
       type: "spa"
     values:
       layout: "spacial"
