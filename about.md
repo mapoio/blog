@@ -8,7 +8,7 @@ putout: true
 
 
 <center>
-    <p><img src="/oalurqnz4.bkt.clouddn.com/favicon.png" align="center"></p>
+    <p><img src="http://oalurqnz4.bkt.clouddn.com/favicon.png" align="center"></p>
 </center>
 
 我是曾杰安，我希望能够记录下我的思考。
