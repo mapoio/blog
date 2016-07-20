@@ -8,7 +8,7 @@ putout: true
 
 
 <center>
-    <p><img src="http://oalurqnz4.bkt.clouddn.com/favicon.png" align="center"></p>
+    <p><img src="http://oalurqnz4.bkt.clouddn.com/favicon.jpg" align="center"></p>
 </center>
 
 
