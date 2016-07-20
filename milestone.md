@@ -2,7 +2,7 @@
 layout: page
 title: "milestone"
 description: "听到 说出"
-header-img: "img/black.jpg"
+header-img: "/oalurqnz4.bkt.clouddn.com/black.jpg"
 putout: true
 ---
 

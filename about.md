@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "为自己活下去"
-header-img: "img/zhihu.jpg"
+header-img: "/oalurqnz4.bkt.clouddn.com/zhihu.jpg"
 putout: true
 ---
 
