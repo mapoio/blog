@@ -3,7 +3,7 @@ layout: page
 title: "milestone"
 description: "听到 说出"
 header-img: "img/black.jpg"
-putout: "1"
+putout: true
 ---
 
 
