@@ -8,9 +8,9 @@ layout: null
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
-        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+        <lastmod>{{ post.sitemap.lastmod }}</lastmod>
       {% elsif post.date %}
-        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+        <lastmod>{{ post.date }}</lastmod>
       {% else %}
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
       {% endif %}
@@ -32,9 +32,9 @@ layout: null
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
-        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+        <lastmod>{{ page.sitemap.lastmod }}</lastmod>
       {% elsif page.date %}
-        <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+        <lastmod>{{ page.date }}</lastmod>
       {% else %}
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
       {% endif %}
