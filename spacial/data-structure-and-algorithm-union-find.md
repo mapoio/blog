@@ -8,6 +8,7 @@ author: "isheng5"
 special: true
 sitemap:
   priority: "0.8"
+  changefreq: "daily"
 ---
 ### 正在编写中 先占个地方
 
