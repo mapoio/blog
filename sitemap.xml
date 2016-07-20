@@ -10,7 +10,7 @@ layout: null
       {% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod }}</lastmod>
       {% elsif post.date %}
-        <lastmod>{{ post.date }}</lastmod>
+        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
       {% else %}
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
       {% endif %}
