@@ -1,8 +1,11 @@
 ---
 layout: spacial
 title: 仙术 - 并查集
+date: 2016-07-20
 description: 本篇文章介绍数据结构中的一种-并查集。
 header-img: "img/orange.jpg"
+author: "isheng5"
+special: true
 ---
 ### 正在编写中 先占个地方
 
