@@ -3,6 +3,7 @@ layout: page
 title: "About"
 description: "为自己活下去"
 header-img: "img/zhihu.jpg"
+putout: true
 ---
 
 

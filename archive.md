@@ -3,6 +3,7 @@ layout: page
 title: "Archive"
 description: "听·说"
 header-img: "img/orange.jpg"
+putout: true
 ---
 
 
