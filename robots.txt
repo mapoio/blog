@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Disallow: /bin/
+Sitemap: http://www.hotcode.top/sitemap.xml
