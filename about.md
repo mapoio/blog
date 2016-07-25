@@ -1,19 +1,14 @@
 ---
 layout: page
-title: "About"
-description: "为自己活下去"
-header-img: "//oalurqnz4.bkt.clouddn.com/zhihu.jpg"
+title: "关于"
+description: "坚持下去"
+header-img: "//dns.hotcode.top/zhihu.jpg"
 putout: true
 sitemap:
   priority: "0.5"
   changefreq:
   lastmod: 2016-07-16
 ---
-
-
-<center>
-    <p><img src="http://oalurqnz4.bkt.clouddn.com/favicon.jpg" align="center"></p>
-</center>
 
 我是曾杰安，我希望能够记录下我的思考。
 
@@ -35,12 +30,6 @@ sitemap:
 - Python
 - [曾杰安](http://isheng5.github.io)
 - [知乎](https://www.zhihu.com/people/isheng5)
-
-
-
-### 我的朋友们
-
-- [woodcoding](http://woodcoding.com)
 
 
 ### 联系

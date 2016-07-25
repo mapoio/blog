@@ -1,8 +1,8 @@
 ---
-layout: page
-title: "Tags"
-description: "哈哈，你找到了我的文章基因库"  
-header-img: "/oalurqnz4.bkt.clouddn.com/semantic.jpg"  
+layout: default
+title: "标签"
+description: "哈哈，你找到了我的文章基因库"
+header-img: "/dns.hotcode.top/semantic.jpg"  
 putout: true
 sitemap:
   priority: "0.5"
@@ -10,43 +10,61 @@ sitemap:
   lastmod: 2016-07-19
 ---
 
-## 本页使用方法
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- <div class="site-heading" id="tag-heading"> -->
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-1. 在下面选一个你喜欢的词
-2. 点击它
-3. 相关的文章会「唰」地一声跳到页面顶端
-4. 马上试试？
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 标签云 -->
+			<div id='tag_cloud' class="tags">
+				{% for tag in site.tags %}
+				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+				{% endfor %}
+			</div>
 
-## 基因列表
+            <!-- 标签列表 -->
+			{% for tag in site.tags %}
+			<div class="one-tag-list">
+			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+                    <span class="tag-text">{{ tag[0] }}</span>
+                </span>
+				{% for post in tag[1] %}
+				  <!-- <li class="listing-item">
+				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				  </li> -->
+				 <div class="post-preview">
+				    <a href="{{ post.url | prepend: site.baseurl }}">
+				        <h2 class="post-title">
+                            {{ post.title }}
+				        </h2>
+				        {% if post.subtitle %}
+				        <h3 class="post-subtitle">
+				            {{ post.subtitle }}
+				        </h3>
+				        {% endif %}
+				    </a>
+				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+				</div>
+				<hr>
+				{% endfor %}
+			</div>
+			{% endfor %}
 
-
-<div id='tag_cloud'>
-{% for tag in site.tags %}
-<h4><a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a></h4>
-{% endfor %}
+		</div>
+	</div>
 </div>
-
-{% for tag in site.tags %}
-<h5>{{ tag[0] }}</h5>
-<ul class="listing">
-  <!-- <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li> -->
-{% for post in tag[1] %}
-  <li class="listing-item">
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-{% endfor %}
-</ul>
-
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
-<script language="javascript">
-$.fn.tagcloud.defaults = {
-    size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#f8e0e6', end: '#ff3333'}
-};
-
-$(function () {
-    $('#tag_cloud a').tagcloud();
-});
-</script>

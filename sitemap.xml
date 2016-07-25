@@ -6,7 +6,7 @@ layout: null
   {% for post in site.posts %}
     {% unless post.published == false %}
     <url>
-      <loc>{{ post.url }}</loc>
+      <loc>{{site.url}}{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod }}</lastmod>
       {% elsif post.date %}
@@ -30,7 +30,7 @@ layout: null
   {% for page in site.pages %}
     {% unless page.sitemap.exclude == "yes" %}
     <url>
-      <loc>{{ page.url | remove: "index.html" }}</loc>
+      <loc>{{site.url}}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
         <lastmod>{{ page.sitemap.lastmod }}</lastmod>
       {% elsif page.date %}

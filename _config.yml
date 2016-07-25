@@ -1,70 +1,133 @@
 # Site settings
 title: 听 · 说
-header-img: "/oalurqnz4.bkt.clouddn.com/green.jpg"
-tagline: "cn"
+SEOTitle: 听 · 说
+header-img: "/dns.hotcode.top/green.jpg"
+email: huxpro@gmail.com
 description: "曾杰安|听·说"
-baseurl: ""
-url: "http://isheng5.github.io"
+keyword: ""
+url: "http://www.hotcode.top"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
-# About/contact
-owner:
-  name: " isheng5"
-  email: zengjiean@gmail.com
-  bio: "先听后说"
 
-# Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/isheng5.png
 
-douban_username:
-twitter_username:
-github_username: isheng5
+# SNS settings
+RSS: true
+weibo_username:     love1me1
+zhihu_username:     isheng5
+github_username:    isheng5
+#twitter_username:  huxpro
 facebook_username:
-weibo_username:
-zhihu_username: isheng5
+
+
 
 # Build settings
-# use Github Flavored Markdown !important
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 8
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:211 of `post.html`
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
 
-# Defaults for posts
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "isheng5"
-      header-img: "/oalurqnz4.bkt.clouddn.com/green.jpg" # We don't want posts without a header image, that whould mean white on white
-  # -
-  #   scope:
-  #     path: ""
-  #     type: "spa"
-  #   values:
-  #     layout: "spacial"
-  #     author: "isheng5"
-# Comments
-#comments :
-#  provider : duoshuo
-#  duoshuo :
-#    short_name :
-#  disqus :
-#      short_name :
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate,jekyll-feed]
 
-# Links to include in footer navigation
-# test why
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: isheng5
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 3adf1da998f6e849e695c8b61d1d5646
+# Google Analytics
+ga_track_id: 'UA-80832492-1'            # Format: UA-xxxxxx-xx
+ga_domain: www.hotcode.top
+
+
+
+# Sidebar settings
+sidebar: false                           # whether or not using Sidebar.
+sidebar-about-description: "人生从不是一场马拉松！"
+sidebar-avatar: //dns.hotcode.top/favicon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: false
+friends: [
+    {
+        title: "woodcoding",
+        href: "http://woodcoding.com"
+    },{
+        title: "FreeLoop",
+        href: "http://dabiaoge.coding.me"
+    }
+]
+
+#My tools
+#图片最好是100*100的
+tools: [
+    {
+        name: "Github",
+        href: "http://www.github.com",
+        description: "全球最大的程序员交友社区，以代码会友！",
+        img: "http://dns.hotcode.top/tools/img/github.png"
+    },{
+        name: "360公共库",
+        href: "http://libs.useso.com/",
+        description: "360的这个公共服务库真的好棒，用来加速字体",
+        img: "http://dns.hotcode.top/tools/img/360.png"
+    },{
+        name: "百度CDN",
+        href: "http://su.baidu.com/",
+        description: "加速效果不错，还可以免费使用。",
+        img: "http://dns.hotcode.top/tools/img/baidu.png"
+    },{
+        name: "七牛",
+        href: "http://www.qiniu.com/",
+        description: "感谢七牛，本站所有的图片都在七牛上。",
+        img: "http://dns.hotcode.top/tools/img/qiniu.png"
+    },{
+        name: "Coding",
+        href: "http://www.coding.net/",
+        description: "中国的github吧，我博客就是在这上面。",
+        img: "http://dns.hotcode.top/tools/img/coding.png"
+    },{
+        name: "知乎",
+        href: "http://www.zhihu.com/",
+        description: "这个必须喜欢，太多的知识了，必备良品",
+        img: "http://dns.hotcode.top/tools/img/zhihu.png"
+    },{
+        name: "文理OJ",
+        href: "http://n2s.top/",
+        description: "自己学校的oj系统，哈哈，可以玩玩！",
+        img: "http://dns.hotcode.top//tools/img/huas.png"
+    }
+]

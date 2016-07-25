@@ -1,9 +1,10 @@
 ---
 layout: page
 title: 仙术 - 并查集
+subtitle: 本篇文章介绍数据结构中的一种-并查集。
 date: 2016-07-20
 description: 本篇文章介绍数据结构中的一种-并查集。
-header-img: "/oalurqnz4.bkt.clouddn.com/blue.jpg"
+header-img: "/dns.hotcode.top/blue.jpg"
 author: "isheng5"
 special: true
 sitemap:
@@ -88,3 +89,5 @@ Conding是一件有趣的事情！
 ---
 markdown数学公式MathJax测试
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+---

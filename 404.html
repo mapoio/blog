@@ -1,48 +1,25 @@
 ---
-layout: page
-header-img: "img/red.jpg"
-description: "你来到了一片荒芜之地"
-permalink: 404.html
-sitemap:
-  priority: "0.5"
-  changefreq:
-  lastmod: 2016-07-15
+layout: default
+description: "你来到了没有知识的荒原 :("
+header-img: "/dns.hotcode.top/img/404-bg.jpg"
+permalink: /404.html
 ---
 
-<p>你来到这个页面，通常有两个原因 </p>
 
-<h2 id="toc_0">一、链接错误</h2>
-<p>看错链接啦</p>
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="site-heading" id="tag-heading">
+					<h1>404</h1>
+					<span class="subheading">{{ page.description }}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
 
-<h2 id="toc_3">二、维度攻击</h2>
-
-<p>不明力量入侵，你想要访问的页面被摧毁了。</p>
-
-
-</body>
-
-
-
-<!----------------------------------------------------------------
-         mm
-      /^(  )^\                     Ascii arts included in this page:
-      \,(..),/                     - R2D2, provided by: http://www.chris.com/
-        V~~V                       - Texts, generated from: http://www.network-science.de/ascii/
-                                   http:// cnfeat.github.io
-
------------------------------------------------------------------->
-
-  <style>
-    pre {
-          background: none;
-          border: none;
-    }
-  </style>
-
-  <pre>
----x-----mm--
-      /^(  )^\
-      \,(..),/        Oops...
-        V~~V
-一定是发生了什么可怕的事情....
-    </pre>
+<script>
+	document.body.classList.add('page-fullscreen');
+</script>
