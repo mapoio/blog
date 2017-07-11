@@ -5,7 +5,7 @@ header-img: "/dns.hotcode.top/green.jpg"
 email: huxpro@gmail.com
 description: "曾杰安|听·说"
 keyword: ""
-url: "http://www.hotcode.top"              # your host, for absolute URL
+url: "http://isheng5.gitlab.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
