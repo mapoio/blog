@@ -1,10 +1,10 @@
 ---
 layout: ppt
-title: HotCode的第一个演示文稿
+title: Isheng的第一个演示文稿
 subtitle: "演示文档"
-author: "HotCode"
-description: 听说的第一个演示文档
-md-file: //dns.hotcode.top/ppt/examp.pmd
+author: "Isheng"
+description: 易生的第一个演示文档
+md-file: //cdn.isheng.top/ppt/examp.pmd
 ---
 <div class="slides">
 <section data-markdown data-separator="^\n\n\n" data-separator-vertical="^\n\n">
@@ -15,8 +15,8 @@ md-file: //dns.hotcode.top/ppt/examp.pmd
 
 
 ## External 1.1
-<small>Content 1.1 [热码](http://www.hotcode.top)</small>
-Note: This will [热码](http://www.hotcode.top) appear in the speaker notes window.
+<small>Content 1.1 [热码](http://www.isheng.top)</small>
+Note: This will [热码](http://www.isheng.top) appear in the speaker notes window.
 
 
 ## External 1.2

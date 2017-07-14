@@ -2,7 +2,7 @@
 layout: page
 title: "关于"
 description: "坚持下去"
-header-img: "//dns.hotcode.top/zhihu.jpg"
+header-img: "//cdn.isheng.top/zhihu.jpg"
 putout: true
 sitemap:
   priority: "0.5"
@@ -30,10 +30,11 @@ sitemap:
 - Python
 - [曾杰安](http://isheng5.github.io)
 - [知乎](https://www.zhihu.com/people/isheng5)
+- Javascript
 
 
 ### 联系
 
-- [博客：www.hotcode.top](isheng5.github.io)
+- [博客：www.isheng.top](isheng5.github.io)
 
 - [知乎@狂奔的小兔子](http://www.zhihu.com/people/isheng5)

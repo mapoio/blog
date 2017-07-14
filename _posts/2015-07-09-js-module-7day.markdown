@@ -2,7 +2,7 @@
 layout:     keynote
 title:      "Reveal-开启在线演示"
 subtitle:   "成功添加新的组件"
-iframe:     "http://www.hotcode.top/ppt/ppt-examp/"
+iframe:     "http://www.isheng.top/ppt/ppt-examp/"
 date:       2016-07-03 20:00:00
 author:     "曾杰安"
 header-img: "img/post-bg-js-version.jpg"
@@ -21,5 +21,5 @@ tags:
 
 融入到这个jekyll博客里面真不简单，总是把我要用于演示的md文件解释了，后面加了一个<code>div</code>标签解决了。
 
-### [全屏查看 →](http://www.hotcode.top/ppt/ppt-examp/)
+### [全屏查看 →](http://www.isheng.top/ppt/ppt-examp/)
 

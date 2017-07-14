@@ -2,7 +2,7 @@
 layout: page
 title: "专栏"
 description: "集结一切，出发！"
-header-img: "/dns.hotcode.top/blue.jpg"
+header-img: "/cdn.isheng.top/blue.jpg"
 putout: true
 magazine: ture
 sitemap:

@@ -3,10 +3,10 @@ layout:     page
 title:      "低分情歌"
 subtitle:   "大珍宝原创歌词！！！"
 description: 包子原创之作
-date:       2016-07-21
+date:       2016-07-21 00:00:00
 author:     "大珍宝"
-author-img:  "/dns.hotcode.top/blue.jpg"
-header-img: "/dns.hotcode.top/blue.jpg"
+author-img:  "/cdn.isheng.top/blue.jpg"
+header-img: "/cdn.isheng.top/blue.jpg"
 special: true
 sitemap:
   priority: "0.8"
@@ -21,7 +21,7 @@ tags:
 ---
 
 ## 创作背景
-本歌词由大珍宝于2015年高三生涯创作，表达了对高三生活的无奈。
+本歌词由大珍宝于2015年高三生涯创作，表达了对高三生活的无奈之情。
 
 ---
 

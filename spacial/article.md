@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Article"
-description: "听·说"
-header-img: "/dns.hotcode.top/orange.jpg"
+description: "易·生"
+header-img: "/cdn.isheng.top/orange.jpg"
 putout: false
 sitemap:
   priority: "0.5"

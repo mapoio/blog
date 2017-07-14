@@ -6,15 +6,14 @@
                 <ul class="list-inline text-center">
                     {% if site.RSS %}
                     <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                        <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-                    {% if site.twitter_username %}
+                    {% endif %} {% if site.twitter_username %}
                     <li>
                         <a href="https://twitter.com/{{ site.twitter_username }}">
                             <span class="fa-stack fa-lg">
@@ -35,8 +34,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-                    {% if site.weibo_username %}
+                    {% endif %} {% if site.weibo_username %}
                     <li>
                         <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
                             <span class="fa-stack fa-lg">
@@ -45,10 +43,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-
-
-                    {% if site.facebook_username %}
+                    {% endif %} {% if site.facebook_username %}
                     <li>
                         <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
                             <span class="fa-stack fa-lg">
@@ -57,8 +52,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-                    {% if site.github_username %}
+                    {% endif %} {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
                             <span class="fa-stack fa-lg">
@@ -70,7 +64,7 @@
                     {% endif %}
                 </ul>
                 <p class="copyright text-muted">
-                  Copyright &copy; 听 · 说 {{ site.time | date: '%Y' }} {{ site.owner.name }} .<br>湘ICP备16002934号-1
+                    Copyright &copy; 易 · 生 {{ site.time | date: '%Y' }} {{ site.owner.name }} .<br>湘ICP备16002934号-3 Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
                 </p>
             </div>
         </div>
@@ -78,27 +72,32 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ "//dns.hotcode.top/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //cdn.isheng.top/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="{{ "//dns.hotcode.top/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //cdn.isheng.top/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
 {% if page.magazine %}
-<script src="{{ "//dns.hotcode.top/js/magazine.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //cdn.isheng.top/js/magazine.js " | prepend: site.baseurl }}"></script>
 {% else %}
-<script src="{{ "//dns.hotcode.top/js/blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //cdn.isheng.top/js/blog.js " | prepend: site.baseurl }}"></script>
 {% endif %}
 <!--  -->
 <!-- async load function -->
 <script>
     function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
+        var d = document,
+            t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) {
+            o.addEventListener('load', function(e) {
+                c(null, e);
+            }, false);
+        }
+        s.parentNode.insertBefore(o, s);
     }
 </script>
 
@@ -111,24 +110,26 @@
      - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
      - https://help.github.com/articles/creating-and-highlighting-code-blocks/
 -->
-
-    <script>
-        async("http://cdn.bootcss.com/highlight.js/9.5.0/highlight.min.js", function(){
-            hljs.initHighlightingOnLoad();
-        })
-    </script>
-    <link href="http://cdn.bootcss.com/highlight.js/9.5.0/styles/agate.min.css" rel="stylesheet">
+<script>
+    async("http://cdn.bootcss.com/highlight.js/9.5.0/highlight.min.js", function() {
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/9.5.0/styles/agate.min.css" rel="stylesheet">
 
 
 
 <!-- jquery.tagcloud.js -->
 <script>
     // only load tagcloud.js in tag.html
-    if($('#tag_cloud').length !== 0){
-        async("/js/jquery.tagcloud.js",function(){
+    if ($('#tag_cloud').length !== 0) {
+        async("/js/jquery.tagcloud.js", function() {
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
-                color: {start: '#bbbbee', end: '#0085a1'},
+                color: {
+                    start: '#bbbbee',
+                    end: '#0085a1'
+                },
             };
             $('#tag_cloud a').tagcloud();
         })
@@ -137,9 +138,9 @@
 
 <!--fastClick.js -->
 <script>
-    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function() {
         var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
+        if ($nav) FastClick.attach($nav);
     })
 </script>
 <!--  MathJax -->
@@ -153,10 +154,17 @@
     var _gaDomain = '{{ site.ga_domain }}';
 
     // Originial
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', _gaId, _gaDomain);
     ga('send', 'pageview');
@@ -173,10 +181,10 @@
     // Originial
     var _hmt = _hmt || [];
     (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?" + _baId;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
     })();
 </script>
 {% endif %}

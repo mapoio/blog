@@ -1,3 +1,4 @@
 User-agent: *
+Disallow:
 Disallow: /bin/
-Sitemap: http://www.hotcode.top/sitemap.xml
+Sitemap: http://www.isheng.top/sitemap.xml

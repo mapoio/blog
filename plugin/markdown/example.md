@@ -4,9 +4,9 @@
 
 ## External 1.1
 
-<small>Content 1.1 [热码](http://www.hotcode.top)</small>
+<small>Content 1.1 [热码](http://www.isheng.top)</small>
 
-Note: This will [热码](http://www.hotcode.top) appear in the speaker notes window.
+Note: This will [热码](http://www.isheng.top) appear in the speaker notes window.
 
 
 ## External 1.2
