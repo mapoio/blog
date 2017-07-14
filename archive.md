@@ -3,7 +3,7 @@ layout: page
 title: "Archive"
 description: "听·说"
 header-img: "/oalurqnz4.bkt.clouddn.com/orange.jpg"
-putout: true
+putout: false
 sitemap:
   priority: "0.5"
   changefreq: "daily"

@@ -3,7 +3,7 @@ layout: page
 title: "milestone"
 description: "听到 说出"
 header-img: "//oalurqnz4.bkt.clouddn.com/black.jpg"
-putout: true
+putout: false
 sitemap:
   priority: "0.5"
   changefreq:
