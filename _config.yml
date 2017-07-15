@@ -1,7 +1,7 @@
 # Site settings
 title: 易 · 生
 SEOTitle: 易 · 生
-header-img: "/{{ site.cdn }}/green.jpg"
+header-img: "/cdn.isheng.top/green.jpg"
 email: zengjiean@gmail.com
 description: "曾杰安|易·生"
 keyword: ""
