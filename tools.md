@@ -6,7 +6,7 @@ header-img: "//cdn.isheng.top/black.jpg"
 putout: true
 magazine: ture
 tools: ture
-color: #404040
+color: "#404040"
 sitemap:
   priority: "0.5"
   changefreq:

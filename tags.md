@@ -4,7 +4,7 @@ title: "标签"
 description: "哈哈，你找到了我的文章基因库"
 header-img: "/cdn.isheng.top/semantic.jpg"  
 putout: true
-color: #009ACD
+color: "#009ACD"
 sitemap:
   priority: "0.5"
   changefreq:
