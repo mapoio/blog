@@ -1,12 +1,12 @@
 ---
 layout: page
+color: "#404040"
 title: "工具"
 description: "利刃 · 出鞘"
 header-img: "//cdn.isheng.top/black.jpg"
 putout: true
 magazine: ture
 tools: ture
-color: "#404040"
 sitemap:
   priority: "0.5"
   changefreq:
