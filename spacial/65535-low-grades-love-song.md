@@ -5,8 +5,8 @@ subtitle:   "大珍宝原创歌词！！！"
 description: 包子原创之作
 date:       2016-07-21 00:00:00
 author:     "大珍宝"
-author-img:  "/{{ site.cdn }}/blue.jpg"
-header-img: "/{{ site.cdn }}/blue.jpg"
+author-img:  "/cdn.isheng.top/blue.jpg"
+header-img: "/cdn.isheng.top/blue.jpg"
 special: true
 sitemap:
   priority: "0.8"

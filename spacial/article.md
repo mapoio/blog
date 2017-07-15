@@ -2,7 +2,7 @@
 layout: page
 title: "Article"
 description: "易·生"
-header-img: "/{{ site.cdn }}/orange.jpg"
+header-img: "/cdn.isheng.top/orange.jpg"
 putout: false
 sitemap:
   priority: "0.5"

@@ -1,11 +1,11 @@
 ---
 layout: post
+color: "#4876FF"
 title: "原生Javascript实现瀑布流布局"
 subtitle: "适用于图片网站的瀑布流布局，原生Javascript实现"
 date: 2016-10-29 00:00:00
 categories: blog
 author: "isheng52"
-color: "#4876FF"
 header-img: "/cdn.isheng.top/zhihu.jpg"
 tags:
   - 前端
