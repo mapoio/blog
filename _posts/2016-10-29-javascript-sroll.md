@@ -6,7 +6,7 @@ date: 2016-10-29 00:00:00
 categories: blog
 author: "isheng52"
 color: #4876FF
-header-img: "/{{ site.cdn }}/zhihu.jpg"
+header-img: "/cdn.isheng.top/zhihu.jpg"
 tags:
   - 前端
   - Javascript
