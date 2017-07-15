@@ -2,8 +2,9 @@
 layout: page
 title: "关于"
 description: "坚持下去"
-header-img: "//cdn.isheng.top/zhihu.jpg"
+header-img: "//{{ site.cdn }}/zhihu.jpg"
 putout: true
+color: #0000FF
 sitemap:
   priority: "0.5"
   changefreq:

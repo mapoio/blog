@@ -5,7 +5,7 @@ subtitle: "一个暑假要过去了，我收获了这些"
 date: 2016-08-14 00:00:00
 categories: blog
 author: "isheng52"
-header-img: "/cdn.isheng.top/img/ganyan.jpg"
+header-img: "/{{ site.cdn }}/img/ganyan.jpg"
 tags:
   - 目标
   - 随笔

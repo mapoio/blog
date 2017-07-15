@@ -1,29 +1,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="#208c5b">
-    <meta name="msapplication-TileColor" content="#208c5b">
+    <meta name="theme-color" content="{% if page.color %}{{ page.color }}{% else %}#208c5b{% endif %}">
+    <meta name="msapplication-TileColor" content="{% if page.color %}{{ page.color }}{% else %}#208c5b{% endif %}">
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
     <meta name="keyword" content="{{ site.keyword }}">
-    <link rel="shortcut icon" href="http://cdn.isheng.top/favicon.ico">
+    <link rel="shortcut icon" href="http://{{ site.cdn }}/favicon.ico">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ " //cdn.isheng.top/css/bootstrap.css " | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ " //{{ site.cdn }}/css/bootstrap.css " | prepend: site.baseurl }}">
 
     <!-- Custom CSS -->
     {% if page.magazine %}
-    <link rel="stylesheet" href="{{ " //cdn.isheng.top/css/pages.css " | prepend: site.baseurl }}"> {% else %}
-    <link rel="stylesheet" href="{{ " //cdn.isheng.top/css/isheng-blog-3.css " | prepend: site.baseurl }}"> {% endif %}
+    <link rel="stylesheet" href="{{ " //{{ site.cdn }}/css/pages.css " | prepend: site.baseurl }}"> {% else %}
+    <link rel="stylesheet" href="{{ " //{{ site.cdn }}/css/isheng-blog-3.css " | prepend: site.baseurl }}"> {% endif %}
     <!-- Pygments Github CSS -->
     <!--   <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
 -->
-    <!-- <link rel="stylesheet" href="{{ "//cdn.isheng.top/css/syntax.css" | prepend: site.baseurl }}"> -->
+    <!-- <link rel="stylesheet" href="{{ "//{{ site.cdn }}/css/syntax.css" | prepend: site.baseurl }}"> -->
 
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->

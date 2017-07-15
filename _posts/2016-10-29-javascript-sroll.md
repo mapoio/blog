@@ -5,7 +5,8 @@ subtitle: "适用于图片网站的瀑布流布局，原生Javascript实现"
 date: 2016-10-29 00:00:00
 categories: blog
 author: "isheng52"
-header-img: "/cdn.isheng.top/zhihu.jpg"
+color: #4876FF
+header-img: "/{{ site.cdn }}/zhihu.jpg"
 tags:
   - 前端
   - Javascript

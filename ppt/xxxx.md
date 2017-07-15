@@ -4,7 +4,7 @@ title: Isheng
 subtitle: "热码"
 author: "Isheng"
 description: 热码
-md-file: //cdn.isheng.top/ppt/examp.pmd
+md-file: //{{ site.cdn }}/ppt/examp.pmd
 ---
 <div class="slides">
 <section data-markdown data-separator="^\n\n\n" data-separator-vertical="^\n\n">

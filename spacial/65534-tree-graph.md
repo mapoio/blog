@@ -5,8 +5,8 @@ subtitle:   "本专题讨论最小生成树与最短路径算法中各种算法�
 description: 算法那么多，我该取哪种！
 date:       2016-07-29 00:00:00
 author:     "曾杰安"
-author-img:  "/cdn.isheng.top/favicon.png"
-header-img: "/cdn.isheng.top/img/tree-4.jpg"
+author-img:  "/{{ site.cdn }}/favicon.png"
+header-img: "/{{ site.cdn }}/img/tree-4.jpg"
 special: true
 sitemap:
   priority: "0.8"

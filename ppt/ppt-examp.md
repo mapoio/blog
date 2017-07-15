@@ -4,7 +4,7 @@ title: Isheng的第一个演示文稿
 subtitle: "演示文档"
 author: "Isheng"
 description: 易生的第一个演示文档
-md-file: //cdn.isheng.top/ppt/examp.pmd
+md-file: //{{ site.cdn }}/ppt/examp.pmd
 ---
 <div class="slides">
 <section data-markdown data-separator="^\n\n\n" data-separator-vertical="^\n\n">

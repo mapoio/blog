@@ -1,13 +1,13 @@
 # Site settings
 title: 易 · 生
 SEOTitle: 易 · 生
-header-img: "/cdn.isheng.top/green.jpg"
+header-img: "/{{ site.cdn }}/green.jpg"
 email: zengjiean@gmail.com
 description: "曾杰安|易·生"
 keyword: ""
 url: "http://www.isheng.top"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
-cdn: "cdn.isheng.top"
+cdn: "{{ site.cdn }}"
 
 
 
@@ -70,7 +70,7 @@ ga_domain: www.isheng.top
 # Sidebar settings
 sidebar: false                           # whether or not using Sidebar.
 sidebar-about-description: "人生从不是一场马拉松！"
-sidebar-avatar: //cdn.isheng.top/favicon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: //{{ site.cdn }}/favicon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -99,31 +99,31 @@ tools: [
         name: "Github",
         href: "http://www.github.com",
         description: "全球最大的程序员交友社区，以代码会友！",
-        img: "http://cdn.isheng.top/tools/img/github.png"
+        img: "http://{{ site.cdn }}/tools/img/github.png"
     },{
         name: "360公共库",
         href: "http://libs.useso.com/",
         description: "360的这个公共服务库真的好棒，用来加速字体",
-        img: "http://cdn.isheng.top/tools/img/360.png"
+        img: "http://{{ site.cdn }}/tools/img/360.png"
     },{
         name: "百度CDN",
         href: "http://su.baidu.com/",
         description: "加速效果不错，还可以免费使用。",
-        img: "http://cdn.isheng.top/tools/img/baidu.png"
+        img: "http://{{ site.cdn }}/tools/img/baidu.png"
     },{
         name: "七牛",
         href: "http://www.qiniu.com/",
         description: "感谢七牛，本站所有的图片都在七牛上。",
-        img: "http://cdn.isheng.top/tools/img/qiniu.png"
+        img: "http://{{ site.cdn }}/tools/img/qiniu.png"
     },{
         name: "Coding",
         href: "http://www.coding.net/",
         description: "中国的github吧，我博客就是在这上面。",
-        img: "http://cdn.isheng.top/tools/img/coding.png"
+        img: "http://{{ site.cdn }}/tools/img/coding.png"
     },{
         name: "知乎",
         href: "http://www.zhihu.com/",
         description: "这个必须喜欢，太多的知识了，必备良品",
-        img: "http://cdn.isheng.top/tools/img/zhihu.png"
+        img: "http://{{ site.cdn }}/tools/img/zhihu.png"
     }
 ]

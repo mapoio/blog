@@ -72,16 +72,16 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ " //cdn.isheng.top/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //{{ site.cdn }}/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="{{ " //cdn.isheng.top/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //{{ site.cdn }}/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
 {% if page.magazine %}
-<script src="{{ " //cdn.isheng.top/js/magazine.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //{{ site.cdn }}/js/magazine.js " | prepend: site.baseurl }}"></script>
 {% else %}
-<script src="{{ " //cdn.isheng.top/js/blog.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " //{{ site.cdn }}/js/blog.js " | prepend: site.baseurl }}"></script>
 {% endif %}
 <!--  -->
 <!-- async load function -->
@@ -123,7 +123,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if ($('#tag_cloud').length !== 0) {
-        async("http://cdn.isheng.top/js/jquery.tagcloud.js", function() {
+        async("http://{{ site.cdn }}/js/jquery.tagcloud.js", function() {
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {
