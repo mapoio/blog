@@ -125,10 +125,5 @@ tools: [
         href: "http://www.zhihu.com/",
         description: "这个必须喜欢，太多的知识了，必备良品",
         img: "http://cdn.isheng.top/tools/img/zhihu.png"
-    },{
-        name: "文理OJ",
-        href: "http://n2s.top/",
-        description: "自己学校的oj系统，哈哈，可以玩玩！",
-        img: "http://cdn.isheng.top//tools/img/huas.png"
     }
 ]
