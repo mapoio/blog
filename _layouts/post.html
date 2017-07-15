@@ -48,7 +48,7 @@ layout: default
                 post-container">
 
 				{{ content }}
-		<p>{{ site.livere_data_uid }}</p>
+		    
                 <div><hr></div>
 
                 <ul class="pager">
@@ -72,9 +72,9 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 		
-		
+		{% if site.livere_data_uid %}
                 <!-- 来必力 评论框 start -->
-                <div id="lv-container" data-id="city" data-uid="MTAyMC8yOTUyNy82MDk1">
+                <div id="lv-container" data-id="city" data-uid="{{ site.livere_data_uid }}">
 			<script type="text/javascript">
    			(function(d, s) {
        				var j, e = d.getElementsByTagName(s)[0];
@@ -91,6 +91,7 @@ layout: default
 			<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
 		</div>
                 <!-- 来必力 评论框 end -->
+		{% endif %}
                 
 
             </div>
