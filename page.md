@@ -1,11 +1,11 @@
 ---
 layout: page
+color: "#0000FF"
 title: "专栏"
 description: "集结一切，出发！"
 header-img: "/cdn.isheng.top/blue.jpg"
 putout: true
 magazine: ture
-color: "#0000FF"
 sitemap:
   priority: "0.5"
   changefreq:

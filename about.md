@@ -1,10 +1,10 @@
 ---
 layout: page
+color: "#0000FF"
 title: "关于"
 description: "坚持下去"
 header-img: "//cdn.isheng.top/zhihu.jpg"
 putout: true
-color: "#0000FF"
 sitemap:
   priority: "0.5"
   changefreq:

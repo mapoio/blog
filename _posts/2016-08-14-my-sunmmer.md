@@ -1,5 +1,6 @@
 ---
 layout: post
+color: "red"
 title: "我的暑假集训"
 subtitle: "一个暑假要过去了，我收获了这些"
 date: 2016-08-14 00:00:00
