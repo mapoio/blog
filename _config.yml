@@ -53,8 +53,8 @@ kramdown:
 #duoshuo_username: isheng5
 # Share component is depend on Comment so we can NOT use share only.
 #duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
+# livere
+livere_data_uid: MTAyMC8yOTUyNy82MDk1
 
 
 # Analytics settings
