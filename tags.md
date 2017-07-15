@@ -2,7 +2,7 @@
 layout: default
 title: "标签"
 description: "哈哈，你找到了我的文章基因库"
-header-img: "/{{ site.cdn }}/semantic.jpg"  
+header-img: "/cdn.isheng.top/semantic.jpg"  
 putout: true
 color: #009ACD
 sitemap:

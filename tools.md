@@ -2,7 +2,7 @@
 layout: page
 title: "工具"
 description: "利刃 · 出鞘"
-header-img: "//{{ site.cdn }}/black.jpg"
+header-img: "//cdn.isheng.top/black.jpg"
 putout: true
 magazine: ture
 tools: ture
