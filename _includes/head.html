@@ -1,12 +1,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <META NAME="Language" CONTENT="zh-CN">
     <meta name="theme-color" content="{% if page.color %}{{ page.color }}{% else %}#208c5b{% endif %}">
     <meta name="msapplication-TileColor" content="{% if page.color %} {{ page.color }} {% else %}#208c5b{% endif %}">
+    <meta name="apple-mobile-web-app-status-bar-style" content="{% if page.color %} {{ page.color }} {% else %}#208c5b{% endif %}">
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
     <meta name="keyword" content="{{ site.keyword }}">
+    <META NAME="Copyright" CONTENT="{{ site.title }}">
     <link rel="shortcut icon" href="http://{{ site.cdn }}/favicon.ico">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
